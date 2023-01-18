@@ -23,7 +23,7 @@ const Toast = (message) => {
   );
 };
 
-const MAPS_API_KEY = 'AIzaSyC9bXXBUsqVA_P8qkG_79s04WWDBIL_bec';
+const MAPS_API_KEY = '********************************';
 const PlacesAPIURL = (lat, lng) =>
   `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${lat},${lng}&radius=50&key=${MAPS_API_KEY}`;
 
